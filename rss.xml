@@ -1,6 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Samba Space]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 22 Feb 2021 13:56:32 GMT</lastBuildDate><item><title><![CDATA[정적 팩터리 메소드(static factory method)]]></title><description><![CDATA[DI(Dependency Injection) dependecy가 있는 resource를 외부에서 주입받는 기법으로 유연성과 테스트 용이성을 높여준다. asdf reference Joshua Bloch, 『Effective Java 3rd Edition…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/java/dependency-injection/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/java/dependency-injection/</guid><pubDate>Wed, 17 Feb 2021 23:17:00 GMT</pubDate><content:encoded>&lt;h1&gt;DI(Dependency Injection)&lt;/h1&gt;
-&lt;p&gt;dependecy가 있는 resource를 외부에서 주입받는 기법으로 유연성과 테스트 용이성을 높여준다.&lt;/p&gt;
-&lt;h1&gt;asdf&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Samba Space]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 22 Feb 2021 14:34:45 GMT</lastBuildDate><item><title><![CDATA[의존 객체 주입(Dependency Injection)]]></title><description><![CDATA[DI(Dependency Injection) dependecy가 있는 resource를 외부에서 주입받는 기법으로 유연성과 테스트 용이성을 높여준다.  * 장점 자원을 직접 명시하기 보단 의존 객체 주입 사용하자. 또, 사용하는 resource…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/java/dependency-injection/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/java/dependency-injection/</guid><pubDate>Wed, 17 Feb 2021 23:17:00 GMT</pubDate><content:encoded>&lt;h1&gt;DI(Dependency Injection)&lt;/h1&gt;
+&lt;p&gt;dependecy가 있는 resource를 외부에서 주입받는 기법으로 유연성과 테스트 용이성을 높여준다. &lt;/p&gt;
+&lt;h2&gt;* 장점&lt;/h2&gt;
+&lt;p&gt;자원을 직접 명시하기 보단 의존 객체 주입 사용하자. 또, 사용하는 resource에 따라 동작이 달라지는 클래스에는 정적 유틸리티 클래스나 싱글턴 방식 적합하지 않다.
+불변을 보장하고 같은 resource를 사용하는 여러 client가 의존 객체들을 안심하고 공유 할 수 있기도 하다.&lt;/p&gt;
+&lt;h2&gt;* 단점&lt;/h2&gt;
+&lt;p&gt;denpendency가 매우 많은 큰 프로젝트에서 코드를 어지럽게 만드기도 한다. Dagger, Guice, Spring 등의 의존 객체 주입 프레임워크를 사용하면 어질러짐을 해소 할 수 있다.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h1&gt;팩토리 메소드 패턴(Factory Method Pattern)&lt;/h1&gt;
+&lt;p&gt;DI의 변형으로 팩토리를 생성자에 넘겨주는 방식이다. 여기서 팩토리란 호출 시, 특정 타입의 인스턴스를 반복해서 만들어주는 객체다.&lt;/p&gt;
+&lt;h2&gt;* Supplier&amp;#x3C;T&gt; 인터페이스&lt;/h2&gt;
+&lt;p&gt;자바 8에서 소개된 인터페이스로 팩토리를 완벽하게 표현한 예이다.&lt;br&gt;
+Supplier&amp;#x3C;T&gt;를 파라미터로 받는 메소드는 일반적으로 bounded wildcard type을 사용해 팩토리의 타입 매개변수 제한해야 한다. 자신이 명시한 타입의 하위 타입은 생성할 수 있는 팩토리를 넘길 수 있다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token class-name&quot;&gt;Mosaic&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Supplier&lt;/span&gt;&lt;span class=&quot;token generics&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Tile&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; tileFactory&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt; ex) client가 제공한 팩토리가 생성한 Tile들로 구성된 Mosaic를 만드는 메소드&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h1&gt;reference&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Joshua Bloch, 『Effective Java 3rd Edition』, 인사이트(2020), p28-30&lt;/li&gt;
