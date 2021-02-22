@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 12 Feb 2021 06:55:43 GMT</lastBuildDate><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Samba Space]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 22 Feb 2021 13:56:32 GMT</lastBuildDate><item><title><![CDATA[정적 팩터리 메소드(static factory method)]]></title><description><![CDATA[DI(Dependency Injection) dependecy가 있는 resource를 외부에서 주입받는 기법으로 유연성과 테스트 용이성을 높여준다. asdf reference Joshua Bloch, 『Effective Java 3rd Edition…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/java/dependency-injection/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/java/dependency-injection/</guid><pubDate>Wed, 17 Feb 2021 23:17:00 GMT</pubDate><content:encoded>&lt;h1&gt;DI(Dependency Injection)&lt;/h1&gt;
+&lt;p&gt;dependecy가 있는 resource를 외부에서 주입받는 기법으로 유연성과 테스트 용이성을 높여준다.&lt;/p&gt;
+&lt;h1&gt;asdf&lt;/h1&gt;
+&lt;h1&gt;reference&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Joshua Bloch, 『Effective Java 3rd Edition』, 인사이트(2020), p28-30&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/new-beginnings/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
 right at the coast of the Semantics, a large language ocean. A small river named
@@ -97,7 +103,27 @@ chicken eggs, though the…]]></description><link>https://gatsby-starter-blog-de
 chicken eggs, though the taste and texture will be somewhat different, and the
 egg yolk will be less rich.”?
 (&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/hello-world/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[정적 팩터리 메소드(static factory method)]]></title><description><![CDATA[정적 팩터리 메소드 ㅁㄴㅇ러ㅑ머냥 장점 1. 머한다 ㅁㅇㄹㅈㄷ랴ㅓㅁㄴ
+ㅁㄴㅇ러ㅑㅁㄴ어랴ㅓㅁㄴㅇ럄ㄴ
+ㅁㅇㄴ러ㅑㅁ너얆ㄴㅇㄹ
+ㄹ머냥러ㅑㅁㄴㅇㄹ
+ㅇ러ㅑ  ㅁㄴㅇ랴ㅓㅁㄴㅇ럄ㄴㅇㄹ ㅁㅇ러ㅑㅁ어럄ㄴㅇㄹ 2. 머해야한다 ㅁㅇ랴멍ㄹ…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/java/static/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/java/static/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;정적 팩터리 메소드&lt;/h1&gt;
+&lt;p&gt;ㅁㄴㅇ러ㅑ머냥&lt;/p&gt;
+&lt;h1&gt;장점&lt;/h1&gt;
+&lt;h2&gt;1. 머한다&lt;/h2&gt;
+&lt;p&gt;ㅁㅇㄹㅈㄷ랴ㅓㅁㄴ
+ㅁㄴㅇ러ㅑㅁㄴ어랴ㅓㅁㄴㅇ럄ㄴ
+ㅁㅇㄴ러ㅑㅁ너얆ㄴㅇㄹ
+ㄹ머냥러ㅑㅁㄴㅇㄹ
+ㅇ러ㅑ  ㅁㄴㅇ랴ㅓㅁㄴㅇ럄ㄴㅇㄹ&lt;br&gt;
+ㅁㅇ러ㅑㅁ어럄ㄴㅇㄹ&lt;/p&gt;
+&lt;h2&gt;2. 머해야한다&lt;/h2&gt;
+&lt;p&gt;ㅁㅇ랴멍ㄹ&lt;/p&gt;
+&lt;h2&gt;3. 머를 해야한다.&lt;/h2&gt;
+&lt;p&gt;ㅁㅇ러ㅑ멍ㄹ&lt;/p&gt;
+&lt;h1&gt;단점&lt;/h1&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[Chinese Salty EggChinese Salty Egg
+This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting…]]></description><link>https://gatsby-starter-blog-demo.netlify.app/hello-world/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Chinese Salty EggChinese Salty Egg
+This is my first post on my new fake blog! How exciting!&lt;/p&gt;
 &lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
 &lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
@@ -141,8 +167,8 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;You can also write code blocks here!&lt;/p&gt;
+    &lt;/span&gt;
+You can also write code blocks here!&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; saltyDuckEgg &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;chinese preserved food product&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -308,6 +334,7 @@ _single underscores_
 
 __double underscores__&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This paragraph has some &lt;code class=&quot;language-text&quot;&gt;code&lt;/code&gt; in it.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;This paragraph has some `code` in it.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;This paragraph has some `code` in it.
+adsf&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src=&quot;https://placehold.it/200x50&quot; alt=&quot;Alt Text&quot; title=&quot;Image Title&quot;&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Alt Text](https://placehold.it/200x50 &amp;quot;Image Title&amp;quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
