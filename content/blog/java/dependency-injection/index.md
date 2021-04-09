@@ -24,6 +24,7 @@ Mosaic create(Supplier<? extends Tile> tileFactory){
 }
 ```
  ex) client가 제공한 팩토리가 생성한 Tile들로 구성된 Mosaic를 만드는 메소드
+ 
 
 
 <br><br>
